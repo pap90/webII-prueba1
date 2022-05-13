@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oswald:wght@200&display=swap');
+:root{
+	--color-negro:#000;
+	--color-circulos:#55bc69;
+    --color-fondofooter:#191919;
+	--color-titulos:#444;
+	--color-contenido:#888;
+
+}
+body{
+	font-size: 14px;
+	color: var(--color-texto);
+}
+header{
+    background-color: #eee;
+}
+.section{
+	padding:50px 0;
+	min-height:300px;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #eee !important;
+}
+#hero {
+	background-image: url("../img/bg-hero.jpg");
+	background: cover;
+	background-position: center;
+	text-align: left;
+	color: white;
+	
+}
+.overlay{
+	
+	padding: 140px;
+}
+#hero h1{
+	text-transform: uppercase;
+	font-weight: 200;
+	color: #fff;
+	font-size: 100px;
+}
+#hero h2{
+	font-size:40px; 
+}
+#button-1{
+	background-color: #FFEC00;
+	border-color: #FFEC00;
+}
+#navbar-1{
+	background-color:var(--color-negro) ;
+}
+#welcome h1{
+	text-align: center;
+	font-size: 60px;
+}
+.money{
+	font-size: 50px;
+}
+.subtitulo{
+	font-size: 20px;
+	text-align: center;
+}
+.secure{
+	font-size: 50px;
+}
+.data{
+	font-size: 50px;
+}
+#footer-1{
+	text-align: center;
+	color:#fff;
+	padding: 20px;
+}
+#services i{
+	width: 60px;
+	height: 60px;
+	line-height: 60px ;
+	text-align: center;
+	border-radius: 100%;
+	border: 1px solid #FFFFFF;
+	font-size: 40px;
+	margin: 30px 40;
+	color: #FFFFFF;
+	background-color:  #55bc69; 
+	margin-bottom: 200px;
+}
+footer{
+	background-color: #000;
+}
